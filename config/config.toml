@@ -1,0 +1,8 @@
+domain = "localhost"
+production = false
+min_passphrase_entropy = 80
+
+csrf_key = "very_secret_csrf_key"
+
+db_connection_string       = "host=db port=5432 user=wave password=music dbname=wave sslmode=disable TimeZone=Europe/Moscow"
+email_from                 = "noreply@wave.music"
