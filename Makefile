@@ -2,7 +2,7 @@
 
 # Actions with environment
 dev:
-	docker-compose -f env/dev/docker-compose.yaml
+	docker-compose -f env/dev/docker-compose.yaml up
 
 prod:
 	mkdir -p src/tmp

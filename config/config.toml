@@ -1,8 +1,8 @@
 domain = "localhost"
-production = false
-min_passphrase_entropy = 80
 
-csrf_key = "very_secret_csrf_key"
+session_key = "very_secret_session_key"
+csrf_key = "asfasfkalsaas"
 
-db_connection_string       = "host=db port=5432 user=wave password=music dbname=wave sslmode=disable TimeZone=Europe/Moscow"
-email_from                 = "noreply@wave.music"
+token_max_age = 3600
+
+db_connection_string       = "host=db port=5432 user=postgres password=music dbname=wave sslmode=disable TimeZone=Europe/Moscow"
