@@ -1,4 +1,4 @@
 .idea
 src/.air.toml
-src/tmp/*
+src/tmp
 /src/config.toml
